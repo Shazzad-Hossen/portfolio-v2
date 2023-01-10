@@ -1,0 +1,256 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #191919;
+
+
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-ico {
+    width: 30px;
+    height: 30px;
+}
+
+.namelogo {
+    font-size: 40px;
+
+    color: #FFFFFF;
+    font-family: 'Racing Sans One';
+    font-weight: 700;
+
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'DM Sans';
+    color: #FFFFFF;
+
+}
+
+/* Main */
+
+/* Section 1 */
+.section-1 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 110px;
+}
+
+.s1-title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #D9D9D9;
+
+}
+
+
+.section-1 img {
+    width: 40%;
+}
+
+/* Section 2 */
+
+.section-2 {
+
+    align-items: center;
+    text-align: center;
+
+
+    margin: auto;
+    padding-top: 348px;
+}
+
+.s2-t1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    color: #CCCCCC;
+
+}
+
+.s2-t2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 26px;
+    color: #A7A7A7A7;
+
+
+}
+
+.skills {
+    padding-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.skills img {
+    width: 80px;
+    margin: 30px;
+}
+
+/* Section 3 */
+.section-3 {
+    padding-top: 200px;
+
+}
+
+.section-3-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.s3-t1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    color: #CCCCCC;
+    align-items: center;
+    text-align: center;
+
+}
+
+.s3-t2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 26px;
+    color: #A7A7A7;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+.projects {
+
+    border-radius: 20px;
+    margin: 20px;
+    background: #363636;
+    box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.089);
+
+}
+
+.p-details {
+    padding: 10px;
+
+}
+
+.p-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 26px;
+    color: #CCCCCC;
+
+}
+
+.p-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #CCCCCC;
+
+
+}
+
+.p-details a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+.projects img {
+    width: 100%;
+}
+
+/* Footer */
+hr {
+    border: 1px solid #42446E;
+}
+
+footer {
+    padding-top: 50px;
+
+
+}
+
+.footerbody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.f-r {
+    display: flex;
+    gap: 40px;
+
+
+}
+
+.ftr {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #A7A7A7;
+}
+
+.f-ico {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.f-img {
+    width: 20px;
+    height: 20px;
+}
+
+.devinfo {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    mix-blend-mode: normal;
+    color: #A7A7A7;
+}
